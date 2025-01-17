@@ -27,10 +27,10 @@ streamline their workflow.
 
 | Variable Name                | Default Value            | Description                                    |
 |------------------------------|--------------------------|------------------------------------------------|
-| `ZSH_Ollama_MODEL`           | `llama3.1`               | Ollama model to use (e.g., `llama3.1`)         |
-| `ZSH_Ollama_COMMANDS_HOTKEY` | `Ctrl-o`                 | Default shortcut key for triggering the plugin |
-| `ZSH_Ollama_COMMANDS`        | 5                        | Number of command suggestions displayed        |
-| `ZSH_Ollama_URL`             | `http://localhost:11434` | The URL of Ollama server host                  |
+| `ZSH_OLLAMA_MODEL`           | `llama3.1`               | Ollama model to use (e.g., `llama3.1`)         |
+| `ZSH_OLLAMA_COMMANDS_HOTKEY` | `Ctrl-o`                 | Default shortcut key for triggering the plugin |
+| `ZSH_OLLAMA_COMMANDS`        | 5                        | Number of command suggestions displayed        |
+| `ZSH_OLLAMA_URL`             | `http://localhost:11434` | The URL of Ollama server host                  |
 
 ## Usage
 
