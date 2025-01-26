@@ -24,6 +24,12 @@ def get_commands(model, query):
 
     content = response_json['message']['content']
 
+    ### if content contains <think> and </think> tags, remove them and text between them
+    while '<think>' in content:
+        start = content.index('<think>')
+        end = content.index('</think>') + 8
+        content = content[:start] + content[end:]
+
     try:
         commands = [command.strip() for command in content.split('\n') if command.strip()]
         for command in commands:

@@ -54,3 +54,9 @@ streamline their workflow.
 
 4. Interact with FZF: Type a query or input requirement, and FZF will display
    suggested MacOS terminal commands. Select one to execute.
+
+## Adjustments
+
+* Use `?` to get detailed information about a command.
+* Use `??` to get more comprehensive information.
+* Handle 'think' tags for e.g. `deepseek-r1` models.
